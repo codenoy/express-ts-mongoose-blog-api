@@ -4,15 +4,15 @@
 
 #### 技术构成
 
-开发语言: **Typescript**
-后端框架: **Express.js**
-数据库: **MongoDB**
-ORM: **Mongoose**
-基础权限管理: **admin 和 user 两种权限**
-参数校验方案: **Joi**
-接口限流方案: **基于 Redis 对 IP 进行限制**
-错误处理方案: **定制 HTTP ERROR**
-邮件通知方案: **阿里云邮件推送服务**
+开发语言: **Typescript**  
+后端框架: **Express.js**  
+数据库: **MongoDB**  
+ORM: **Mongoose**  
+基础权限管理: **admin 和 user 两种权限**  
+参数校验方案: **Joi**  
+接口限流方案: **基于 Redis 对 IP 进行限制**  
+错误处理方案: **定制 HTTP ERROR**  
+邮件通知方案: **阿里云邮件推送服务**  
 缓存方案: **Redis + ioredis**
 
 - redis 主要用在用户登录状态的维护, 至于博客以及评论的缓存, 暂未支持
